@@ -814,7 +814,7 @@ open class PulleyViewController: UIViewController {
      - parameter position: The position to set the drawer to.
      - parameter isAnimated: Whether or not to animate the change. Default: true
      */
-    public func setDrawerPosition(position: PulleyPosition, isAnimated: Bool = true)
+    open func setDrawerPosition(position: PulleyPosition, isAnimated: Bool = true)
     {
         setDrawerPosition(position: position, animated: isAnimated)
     }
